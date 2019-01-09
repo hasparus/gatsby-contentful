@@ -5,7 +5,7 @@
     "module": "es6",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "checkJs": true,
+    "checkJs": false,
     "baseUrl": "./src/__scripts",
     "jsx": "react",
     "lib": ["es2015", "es2016", "es2017", "dom"],

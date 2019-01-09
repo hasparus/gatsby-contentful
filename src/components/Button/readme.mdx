@@ -1,17 +1,16 @@
 ---
-name: Colors
-route: /
+name: Button
 ---
 
-import { ColorBlob } from './index'
+import Button from './index'
 import { PropsTable, Playground } from 'docz';
 
-# Linesight Components
+# Button
 
 I'm a markdown document that can have components!
 
 <Playground>
-  <ColorBlob size={100}/>
+  <Button onClick={console.log} />
 </Playground>
 
-<PropsTable of={ColorBlob} />
+<PropsTable of={Button} />

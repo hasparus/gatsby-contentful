@@ -4,6 +4,7 @@ import * as PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import { rhythm } from '../utils/typography';
 import Layout from '../components/Layout';
+import Button from '../components/Button';
 
 const Product = ({ node }) => (
   <div>
@@ -11,6 +12,7 @@ const Product = ({ node }) => (
       style={{ color: 'inherit', textDecoration: 'none' }}
       to={`/products/${node.id}/`}
     >
+      <Button onClick={console.log} />
       <div
         style={{
           display: 'flex',

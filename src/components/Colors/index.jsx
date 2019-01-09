@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Colors = {
+const Colors = {
   Grape: '#592c5f',
+  StrongPink: '#e91e76',
 };
 
 const propTypes = {
@@ -24,3 +25,5 @@ ColorBlob.propTypes = propTypes;
 ColorBlob.defaultProps = {
   size: 100,
 };
+
+export default Colors;
